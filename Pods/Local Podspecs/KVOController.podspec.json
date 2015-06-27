@@ -1,0 +1,23 @@
+{
+  "name": "KVOController",
+  "version": "1.0.3",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/facebook/KVOController",
+  "authors": {
+    "Kimon Tsinteris": "kimon@mac.com"
+  },
+  "summary": "Simple, modern, thread-safe key-value observing.",
+  "description": "                      KVOController builds on Cocoa's time-tested key-value observing implementation. It offers a simple, modern API, that is also thread safe.\n                      Benefits include:\n                      Notification using blocks, custom actions, or NSKeyValueObserving callback.\n                      No exceptions on observer removal.\n                      Implicit observer removal on controller dealloc.\n                      Thread-safety with special guards against observer resurrection.\n                      \n                      Single class: FBKVOController\n",
+  "source": {
+    "git": "https://github.com/facebook/KVOController.git",
+    "tag": "1.0.3"
+  },
+  "source_files": "FBKVOController/*.{h,m}",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.7"
+  }
+}

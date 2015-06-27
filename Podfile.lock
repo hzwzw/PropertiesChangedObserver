@@ -1,0 +1,19 @@
+PODS:
+  - KVOController (1.0.3)
+
+DEPENDENCIES:
+  - KVOController (from `git@github.com:facebook/KVOController.git`)
+
+EXTERNAL SOURCES:
+  KVOController:
+    :git: git@github.com:facebook/KVOController.git
+
+CHECKOUT OPTIONS:
+  KVOController:
+    :commit: 02e2a17a83c49ba0291c5111a63695e289a30e0f
+    :git: git@github.com:facebook/KVOController.git
+
+SPEC CHECKSUMS:
+  KVOController: dfb2f4a6703b75be99849e8ad65bfb7e5190cffe
+
+COCOAPODS: 0.36.0
