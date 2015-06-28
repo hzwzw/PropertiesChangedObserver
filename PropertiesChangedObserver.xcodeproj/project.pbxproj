@@ -13,6 +13,10 @@
 		A7D8292A1B3F60300026D311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D829291B3F60300026D311 /* Images.xcassets */; };
 		A7D8292D1B3F60300026D311 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D8292B1B3F60300026D311 /* LaunchScreen.xib */; };
 		A7D829391B3F60300026D311 /* PropertiesChangedObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D829381B3F60300026D311 /* PropertiesChangedObserverTests.swift */; };
+		A7D829471B3F6FA10026D311 /* HZPropertyChangedObsever+observer.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D829431B3F6FA10026D311 /* HZPropertyChangedObsever+observer.m */; };
+		A7D829481B3F6FA10026D311 /* HZPropertyChangedObsever.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D829441B3F6FA10026D311 /* HZPropertyChangedObsever.m */; };
+		A7D829501B3F74C70026D311 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8294F1B3F74C70026D311 /* AddressModel.swift */; };
+		A7D829531B3F7C060026D311 /* CheckNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D829521B3F7C060026D311 /* CheckNull.swift */; };
 		D3CBBC9DF999F5E498C0B5C3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93922C39E810549890C67607 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,6 +44,13 @@
 		A7D829321B3F60300026D311 /* PropertiesChangedObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertiesChangedObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D829371B3F60300026D311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D829381B3F60300026D311 /* PropertiesChangedObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesChangedObserverTests.swift; sourceTree = "<group>"; };
+		A7D829431B3F6FA10026D311 /* HZPropertyChangedObsever+observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HZPropertyChangedObsever+observer.m"; sourceTree = "<group>"; };
+		A7D829441B3F6FA10026D311 /* HZPropertyChangedObsever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZPropertyChangedObsever.m; sourceTree = "<group>"; };
+		A7D829451B3F6FA10026D311 /* HZPropertyChangedObsever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPropertyChangedObsever.h; sourceTree = "<group>"; };
+		A7D829461B3F6FA10026D311 /* HZPropertyChangedObsever+observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HZPropertyChangedObsever+observer.h"; sourceTree = "<group>"; };
+		A7D8294F1B3F74C70026D311 /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		A7D829511B3F762D0026D311 /* PropertiesChangedObserver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PropertiesChangedObserver-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7D829521B3F7C060026D311 /* CheckNull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckNull.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +104,11 @@
 		A7D8291F1B3F60300026D311 /* PropertiesChangedObserver */ = {
 			isa = PBXGroup;
 			children = (
+				A7D829421B3F6F1D0026D311 /* HZPropertyChangedObsever */,
 				A7D829221B3F60300026D311 /* AppDelegate.swift */,
 				A7D829241B3F60300026D311 /* ViewController.swift */,
+				A7D8294F1B3F74C70026D311 /* AddressModel.swift */,
+				A7D829521B3F7C060026D311 /* CheckNull.swift */,
 				A7D829261B3F60300026D311 /* Main.storyboard */,
 				A7D829291B3F60300026D311 /* Images.xcassets */,
 				A7D8292B1B3F60300026D311 /* LaunchScreen.xib */,
@@ -107,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				A7D829211B3F60300026D311 /* Info.plist */,
+				A7D829511B3F762D0026D311 /* PropertiesChangedObserver-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -126,6 +141,17 @@
 				A7D829371B3F60300026D311 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7D829421B3F6F1D0026D311 /* HZPropertyChangedObsever */ = {
+			isa = PBXGroup;
+			children = (
+				A7D829431B3F6FA10026D311 /* HZPropertyChangedObsever+observer.m */,
+				A7D829441B3F6FA10026D311 /* HZPropertyChangedObsever.m */,
+				A7D829451B3F6FA10026D311 /* HZPropertyChangedObsever.h */,
+				A7D829461B3F6FA10026D311 /* HZPropertyChangedObsever+observer.h */,
+			);
+			path = HZPropertyChangedObsever;
 			sourceTree = "<group>";
 		};
 		EC6190378B8603A591F1FB26 /* Frameworks */ = {
@@ -287,8 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D829481B3F6FA10026D311 /* HZPropertyChangedObsever.m in Sources */,
 				A7D829251B3F60300026D311 /* ViewController.swift in Sources */,
+				A7D829471B3F6FA10026D311 /* HZPropertyChangedObsever+observer.m in Sources */,
 				A7D829231B3F60300026D311 /* AppDelegate.swift in Sources */,
+				A7D829501B3F74C70026D311 /* AddressModel.swift in Sources */,
+				A7D829531B3F7C060026D311 /* CheckNull.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +449,7 @@
 				INFOPLIST_FILE = PropertiesChangedObserver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PropertiesChangedObserver/PropertiesChangedObserver-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -430,6 +461,7 @@
 				INFOPLIST_FILE = PropertiesChangedObserver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PropertiesChangedObserver/PropertiesChangedObserver-Bridging-Header.h";
 			};
 			name = Release;
 		};
