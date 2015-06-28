@@ -7,7 +7,7 @@ When we supply the function of Editing information to users, we'd better knowing
 There is some little trick helping you achieve this function without doing anything. It's so easy.
 
 ###demo:
-[![alt tag][https://github.com/hzwzw/PropertiesChangedObserver/blob/master/doc/demo.gif]
+![alt tag](https://github.com/hzwzw/PropertiesChangedObserver/blob/master/doc/demo.gif)
 
 ###How to use it?
 1. Inheriting the `PropertiesChangedObserver` class.
