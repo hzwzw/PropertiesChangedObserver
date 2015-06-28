@@ -17,7 +17,7 @@ class AddressModel: HZPropertyChangedObsever {
   dynamic var firstName: String!
 }
 ````
-2. Just check the property `isModified` whenever you want.
-3. Remember set `isModified` to `false` after you detected it.
+2. Just checking the property `isModified` whenever you want.
+3. Please remember setting `isModified` to `false` after you detected it.
 
 
