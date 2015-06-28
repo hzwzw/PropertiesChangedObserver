@@ -22,6 +22,7 @@ class AddressModel: HZPropertyChangedObsever {
     street = "409 pierre rd"
     city = "city of industry"
     state = "California"
+    apartMent = ""
   }
   
 }

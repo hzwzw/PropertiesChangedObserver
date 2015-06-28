@@ -20,6 +20,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.readFromModel()
+    address.isModified = false
   }
   
   override func didReceiveMemoryWarning() {
